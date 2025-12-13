@@ -3,7 +3,7 @@ import { View, Text, TextInput, TouchableOpacity, FlatList, StyleSheet } from 'r
 import { Feather } from '@expo/vector-icons';
 import { useAuth } from './contexts/AuthContext';
 import { getMoodEmoji } from './utils/moodUtils';
-s
+
 const Chat = ({ route, navigation }) => {
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState('');
